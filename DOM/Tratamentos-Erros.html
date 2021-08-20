@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Parametros Variaveis</title>
+
+		<script>
+		
+			//netflix
+			var video = Array()
+
+			video[1] = Array()
+			video[1] ['nome'] = 'Fullmetal Alchemist'
+			video[1] ['categora'] = 'anime'
+
+			function getVideo(video){
+				
+
+				try{
+					console.log(video[0]['nome'])
+				}
+				catch(e){
+					console.log('trate o erro')
+				}
+				
+				finally{
+					console.log('sempre passa por aqui')
+				}
+				console.log('A aplicação nao morreu')
+
+				getVideo()
+			}	
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>
