@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Parametros Variaveis</title>
+
+		<script>
+
+			var janela
+
+			function abrirPoupUp(){
+				//metodo open() recebe quatro parametros
+				janela = window.open('http:/www.google.com', 'janela', 'width= 200', 'height=100')
+			}
+			function fecharPoupUp(){
+				//atribui uma janela que pretende fechar para a variavel 
+				 janela.close()
+			}
+
+		</script>
+	</head>
+	<body>
+		<button onclick="abrirPoupUp()">Abrir Janela</button>
+		<button onclick="fecharPouUp()">Fechar Janela</button>
+	</body>
+</html>
